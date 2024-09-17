@@ -15,7 +15,9 @@ body {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 8px;
+    gap: 16px;
 }
 
 .profile-image {
@@ -54,11 +56,6 @@ ul {
     padding: 0;
     display: flex;
     gap: 16px;
-}
 
-.left,
-.right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+    margin-right: auto;
 }
